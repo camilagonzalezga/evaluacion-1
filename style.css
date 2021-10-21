@@ -1,0 +1,61 @@
+
+:root {
+    --bs-body-font-family: 'Roboto', sans-serif;
+    --bs-body-font-size: 18px;
+    --bs-body-font-weight: 400;
+    
+}
+
+/*
+Si el peso de la fuente para sus títulos y negrita es distinto de 600, 
+indique cuál sería (ver pesos de fuente importada)
+*/
+
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 500;
+}
+h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+h2{
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+#fondo-con-imagen {
+    height: 70vh;
+    background-image: url("oceano.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lead{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 24px;
+}
+.aci{
+    padding-bottom: 2%;
+}
+.tam{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url(fondo-peque.jpg);
+    background-repeat: repeat-y;
+}
+a{
+    text-decoration: none;
+}
+.lin{
+    color: aliceblue;
+}
